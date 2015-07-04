@@ -251,3 +251,11 @@ footer .nav>li>a:hover {
 		font-size:6em;
 	}
 }
+
+.tab-content.container {
+	padding: 0;
+}
+
+#schedule tr td {
+	padding: 15px;
+}
