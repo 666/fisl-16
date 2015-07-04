@@ -20,17 +20,17 @@
 }
 
 html,body {
-  height:100%;
-  background:center no-repeat fixed url('../img/dino.jpg');
+  height: 100%;
+  background: center no-repeat fixed url('../img/dino.jpg');
   background-size: cover;
-  color:#444;
+  color: #444;
   font-family: 'Lato', sans-serif;
 }
 
 @media (min-width:768px) {
   h1, h2 {
     font-size: 4.5em;
-  }
+  };
 }
 
 h3 {
@@ -42,28 +42,28 @@ p.answer {
 }
 
 a {
-  color:#999;
+  color: #999;
 }
 
 a:hover {
-  color:#777;
+  color: #777;
 }
 
 .btn,.well,.panel {
-  border-radius:0;
+  border-radius: 0;
 }
 
 .btn-danger {
-  background-color:#f44d3c;
+  background-color: #f44d3c;
 }
 
 .text-danger, a.text-danger {
-  color:#f44d3c;
+  color: #f44d3c;
 }
 
 .btn-huge {
-  padding:17px 22px;
-  font-size:22px;
+  padding: 17px 22px;
+  font-size: 22px;
 }
 
 .lato {
@@ -75,34 +75,34 @@ a:hover {
 }
 
 .icon-bar {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .navbar-trans {
-  background-color:#2b2b2b;
-  color:#cdcdcd;
-  border-width:0;
+  background-color: #2b2b2b;
+  color: #cdcdcd;
+  border-width: 0;
 }
 
 .navbar-trans .navbar-brand, .navbar-trans >.container-fluid .navbar-brand {
   padding: 14px;
-  color:#f44d3c;
+  color: #f44d3c;
 }
 
 .navbar-trans li>a:focus,.navbar-trans li.active {
-  background-color:#f44d3c;
-  color:#333;
+  background-color: #f44d3c;
+  color: #333;
 }
 
 .navbar-trans li>a:hover {
-  background-color:#f44d3c;
-  color:#fff;
-  opacity:0.5;
+  background-color: #f44d3c;
+  color: #fff;
+  opacity: 0.5;
 }
 
-.navbar-trans a{
-  color:#cdcdcd;
-  letter-spacing:1px;
+.navbar-trans a {
+  color: #cdcdcd;
+  letter-spacing: 1px;
 }
 
 .navbar-trans .form-control:focus {
@@ -124,7 +124,7 @@ a:hover {
   display: block;
   padding: 7px;
   text-align: center;
-  z-index:-1
+  z-index: -1;
 }
 
 .scroll-up {
@@ -147,10 +147,10 @@ a:hover {
 }
 
 section {
-  padding-top:70px;
-  padding-bottom:50px;
-  min-height:100%;
-  min-height:calc(100% - 0);
+  padding-top: 70px;
+  padding-bottom: 50px;
+  min-height: 100%;
+  min-height: calc(100% - 0);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -162,19 +162,22 @@ section {
     overflow: visible;
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-  }
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  };
 }
 
 #home, #more-info {
   background-color: rgba(0,0,0,0.7);
-  color:#fff;
+  color: #fff;
   font-family: 'Bitter', serif;
 }
 
 #volunters {
   background-color: rgba(0,0,0,0.7);
-  color:#fff;
+  color: #fff;
 }
 
 #contact {
@@ -191,25 +194,25 @@ section {
 
 #who-we-are {
   background-color: #eee;
-  min-height:130px;
-  padding-top:40px;
-  padding-bottom:40px;
+  min-height: 130px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #directions {
   background-color: #f44d3c;
   color: #f6f6f6;
-  min-height:130px;
-  padding-top:40px;
-  padding-bottom:40px;
+  min-height: 130px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 footer {
-  background-color:#2b2b2b;
-  color:#ddd;
-  min-height:100px;
-  padding-top:20px;
-  padding-bottom:40px;
+  background-color: #2b2b2b;
+  color: #ddd;
+  min-height: 100px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 footer .nav>li>a {
@@ -218,8 +221,8 @@ footer .nav>li>a {
 }
 
 footer .nav>li>a:hover {
-  background-color:transparent;
-  color:#fff;
+  background-color: transparent;
+  color: #fff;
 }
 
 .big-p {
@@ -234,33 +237,33 @@ footer .nav>li>a:hover {
   width: 10rem;
 }
 
-.no-border{
-    border: 0px;
+.no-border {
+  border: 0px;
 }
 
 .vertical-align-middle {
-    vertical-align: middle !important;
+  vertical-align: middle !important;
 }
 
 #home h1 {
-	font-size:9em;
+  font-size: 9em;
 }
 
 @media (max-width: 500px) {
-	#home h1 {
-		font-size:6em;
-	}
+  #home h1 {
+    font-size: 6em;
+  };
 }
 
 .tab-content.container {
-	padding: 0;
+  padding: 0;
 }
 
 #schedule tr td {
-	padding: 15px;
+  padding: 15px;
 }
 
 #schedule tr td:first-of-type {
-	font-weight: bold;
-	text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
