@@ -259,3 +259,8 @@ footer .nav>li>a:hover {
 #schedule tr td {
 	padding: 15px;
 }
+
+#schedule tr td:first-of-type {
+	font-weight: bold;
+	text-align: center;
+}
