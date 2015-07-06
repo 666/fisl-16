@@ -267,3 +267,6 @@ footer .nav>li>a:hover {
   font-weight: bold;
   text-align: center;
 }
+#volunters .col-xs-4 {
+  margin-bottom: 20px
+}
